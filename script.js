@@ -277,10 +277,7 @@ function mediaPond() {
 }
 
 function filterByAnSem(materie) {
-  if (
-    materie.an == form.children[1].value &&
-    materie.semestru == form.children[3].value
-  ) {
+  if (materie.an == form.children[1].value) {
     return true;
   }
   return false;
